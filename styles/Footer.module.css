@@ -1,0 +1,48 @@
+/* Footer CSS */
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footerLinks li {
+  margin-bottom: 5px;
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .footer {
+    height: 200px;
+    font-size: 18px;
+  }
+
+  .footerLinks li:hover {
+    cursor: pointer;
+ 
+  color:  #e99401;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .footer {
+    height: auto;
+    font-size: 14px;
+  }
+
+  .footerLinks li:hover {
+    cursor: pointer;
+    color: #e99401;
+  }
+}
