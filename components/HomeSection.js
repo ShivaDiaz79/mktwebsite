@@ -13,7 +13,7 @@ const HomeSection = ({ text, imagePath, imagenIzquierda = false,title, click, })
       <div className="flex justify-items-center">
         <h1 className=" font-bold  text-white text-2xl">{title}</h1>
       </div>
-      <div className=" bg-blue-700">
+      <div className=" bg-blue-700 rounded-es-fulla  ">
         <button>{click} </button>
       </div>
     </div>
