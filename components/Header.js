@@ -1,8 +1,9 @@
 
-import Head from "next/head";
-import Navbar from "./Navbar";
-import MenuVar from "./MenuVar";
+import Layout from "./Layout";
+import Navbar from './Navbar';
 import Link from "next/link";
+import MenuVar from "./MenuVar";
+
 
 const Header = () => {
 
@@ -11,13 +12,11 @@ const Header = () => {
     
     <div>
       <Navbar/>
-      
 
     </div> 
   
 
-    
-       
+
   );
 };
 

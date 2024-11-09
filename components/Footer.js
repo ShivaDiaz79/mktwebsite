@@ -26,17 +26,7 @@ export default function Footer() {
           <Link href="/contacto">Contacto</Link>
         </li>
       </ul>
-      <ul className={styles.footerLinks}>
-        <li>
-          <Link href="/empresa-1">Empresa 1</Link>
-        </li>
-        <li>
-          <Link href="/empresa-2">Empresa 2</Link>
-        </li>
-        <li>
-          <Link href="/empresa-3">Empresa 3</Link>
-        </li>
-      </ul>
+ 
     </footer>
   )
 }
